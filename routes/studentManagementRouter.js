@@ -48,6 +48,7 @@ const createStudentFunc = async (req, res) => {
       gender,
       email,
       phone,
+      test: null,
       password: hashedPassword,
       chapters: allChapters,
       teacher: teacherUsername,
